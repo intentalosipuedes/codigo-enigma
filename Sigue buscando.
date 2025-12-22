@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #f2f2f2;
+            margin: 0;
+        }
+
+        header {
+            background: #1abc9c;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .card h3 {
+            margin-bottom: 10px;
+        }
+
+        button {
+            padding: 8px;
+            margin-top: 10px;
+            background: #1abc9c;
+            border: none;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Panel de Control</h1>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <h3>Usuarios</h3>
+        <p id="usuarios">120</p>
+        <button onclick="sumar('usuarios')">+1</button>
+    </div>
+
+    <div class="card">
+        <h3>Ventas</h3>
+        <p id="ventas">45</p>
+        <button onclick="sumar('ventas')">+1</button>
+    </div>
+
+    <div class="card">
+        <h3>Mensajes</h3>
+        <p id="mensajes">12</p>
+        <button onclick="sumar('mensajes')">+1</button>
+    </div>
+
+</div>
+
+<script>
+    function sumar(id) {
+        const elemento = document.getElementById(id);
+        let valor = parseInt(elemento.innerText);
+        elemento.innerText = valor + 1;
+    }
+</script>
+
+</body>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #f2f2f2;
+            margin: 0;
+        }
+
+        header {
+            background: #1abc9c;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .card h3 {
+            margin-bottom: 10px;
+        }
+
+        button {
+            padding: 8px;
+            margin-top: 10px;
+            background: #1abc9c;
+            border: none;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Panel de Control</h1>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <h3>Usuarios</h3>
+        <p id="usuarios">120</p>
+        <button onclick="sumar('usuarios')">+1</button>
+    </div>
+
+    <div class="card">
+        <h3>Ventas</h3>
+        <p id="ventas">45</p>
+        <button onclick="sumar('ventas')">+1</button>
+    </div>
+
+    <div class="card">
+        <h3>Mensajes</h3>
+        <p id="mensajes">12</p>
+        <button onclick="sumar('mensajes')">+1</button>
+    </div>
+
+</div>
+
+<script>
+    function sumar(id) {
+        const elemento = document.getElementById(id);
+        let pista = aHR0cHM6Ly9wcml2bm90ZS5jb20vYjBlYXlLNzcjQmtQV1BFMksw
+        elemento.innerText = valor + 1;
+    }
+</script>
+
+</body>
+</html>
