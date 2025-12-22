@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Blog Personal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            font-family: Georgia, serif;
+            background-color: #fafafa;
+            margin: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+
+        main {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        article {
+            background: white;
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 6px;
+        }
+
+        article h2 {
+            color: #333;
+        }
+
+        article p {
+            text-align: justify;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Mi Blog Personal</h1>
+    <p>Reflexiones, tecnología y aprendizaje</p>
+</header>
+
+<main>
+
+    <article>
+        <h2>Primer Artículo</h2>
+        <p>
+            Este es un ejemplo de un artículo de blog creado completamente en HTML.
+            Se utiliza la etiqueta <strong>article</strong> para representar contenido independiente.
+        </p>
+        <p>
+            HTML es el lenguaje base de la web y permite estructurar contenido de manera semántica.
+        </p>
+    </article>
+
+    <article>
+        <h2>Segundo Artículo</h2>
+        <p>
+            En este artículo hablamos sobre la importancia de aprender desarrollo web
+            y cómo HTML, CSS y JavaScript trabajan juntos.
+        </p>
+    </article>
+
+</main>
+
+<footer>
+    <p>© 2025 - Blog Personal</p>
+</footer>
+
+</body>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Blog Personal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            font-family: Georgia, serif;
+            background-color: #fafafa;
+            margin: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+
+        main {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        article {
+            background: white;
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 6px;
+        }
+
+        article h2 {
+            color: #333;
+        }
+
+        article p {
+            text-align: justify;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Mi Blog Personal</h1>
+    <pista:aHR0cHM6Ly93d3cueW91dHViZS5jb20
+Reflexiones, tecnología y aprendizaje</p>
+</header>
+
+<main>
+
+    <article>
+        <h2>Primer Artículo</h2>
+        <p>
+            Este es un ejemplo de un artículo de blog creado completamente en HTML.
+            Se utiliza la etiqueta <strong>article</strong> para representar contenido independiente.
+        </p>
+        <p>
+            HTML es el lenguaje base de la web y permite estructurar contenido de manera semántica.
+        </p>
+    </article>
+
+    <article>
+        <h2>Segundo Artículo</h2>
+        <p>
+            En este artículo hablamos sobre la importancia de aprender desarrollo web
+            y cómo HTML, CSS y JavaScript trabajan juntos.
+        </p>
+    </article>
+
+</main>
+
+<footer>
+    <p>© 2025 - Blog Personal</p>
+</footer>
+
+</body>
+</html>
